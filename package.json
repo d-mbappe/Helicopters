@@ -1,0 +1,47 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve --mode development",
+    "serve": "vue-cli-service serve --mode production",
+    "build": "vue-cli-service build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "apexcharts": "^3.28.1",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.1",
+    "bootstrap-vue": "^2.21.2",
+    "bpmn-js": "^8.7.1",
+    "bpmn-js-properties-panel": "^0.43.1",
+    "camunda-bpmn-moddle": "^5.1.2",
+    "core-js": "^3.6.5",
+    "moment": "^2.29.1",
+    "sass-resources-loader": "^2.2.3",
+    "vue": "^2.6.12",
+    "vue-apexcharts": "^1.6.2",
+    "vue-bpmn-modeler": "^1.2.0",
+    "vue-click-outside": "^1.1.0",
+    "vue-router": "^3.2.0",
+    "vue-select": "^3.11.2",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@storybook/addon-actions": "^6.3.4",
+    "@storybook/addon-essentials": "^6.3.4",
+    "@storybook/addon-links": "^6.3.4",
+    "@storybook/vue": "^6.3.4",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-loader": "^8.2.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "vue-loader": "^15.9.7",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

@@ -1,0 +1,23 @@
+.title {
+    font-weight: 500;
+    color: $table-black;
+    letter-spacing: 1%;
+
+    &_h1 {
+        font-size: 1.25rem;
+    }
+
+    &_h2 {
+        font-size: 1.125rem;
+    }
+
+    &_h3 {
+        font-size: 0.9375rem;
+    }
+
+    &_h5 {
+        font-size: 0.8125rem;
+        font-weight: 400;
+        color: $table-gray;
+    }
+}
